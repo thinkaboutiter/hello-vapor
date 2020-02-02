@@ -5,17 +5,17 @@
 ### Git ###
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false
-*.orig
+# *.orig
 
 # Created by git when using merge tools for conflicts
-*.BACKUP.*
-*.BASE.*
-*.LOCAL.*
-*.REMOTE.*
-*_BACKUP_*.txt
-*_BASE_*.txt
-*_LOCAL_*.txt
-*_REMOTE_*.txt
+# *.BACKUP.*
+# *.BASE.*
+# *.LOCAL.*
+# *.REMOTE.*
+# *_BACKUP_*.txt
+# *_BASE_*.txt
+# *_LOCAL_*.txt
+# *_REMOTE_*.txt
 
 ### macOS ###
 # General
@@ -125,9 +125,9 @@ fastlane/test_output
 iOSInjectionProject/
 
 ### SwiftPackageManager ###
-Packages
-xcuserdata
-*.xcodeproj
+# Packages
+# xcuserdata
+# *.xcodeproj
 
 
 ### SwiftPM ###
@@ -144,11 +144,11 @@ xcuserdata
 ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
 
 ## Xcode Patch
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcworkspace/contents.xcworkspacedata
-/*.gcno
+# *.xcodeproj/*
+# !*.xcodeproj/project.pbxproj
+# !*.xcodeproj/xcshareddata/
+# !*.xcworkspace/contents.xcworkspacedata
+# /*.gcno
 
 ### Xcode Patch ###
 **/xcshareddata/WorkspaceSettings.xcsettings
